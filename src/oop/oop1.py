@@ -25,7 +25,7 @@ class Vehicle:
 
 class FlightVehicle(Vehicle):
     def __init__(self):
-        super().__init__()
+        super().__init__()   # Do not need self inside super() 
         pass
 
 class Starship(FlightVehicle):
